@@ -1,0 +1,593 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CommunityToolkit.Mvvm/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Sdcb.FFmpeg/6.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Sdcb.FFmpeg.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Sdcb.FFmpeg.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+        "type": "package",
+        "build": {
+          "build/netcoreapp/Sdcb.FFmpeg.runtime.windows-x64.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/avcodec-60.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avdevice-60.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avfilter-9.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avformat-60.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/avutil-58.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/postproc-57.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/swresample-4.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/swscale-7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Sdcb.ScreenCapture/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Vortice.Direct3D11": "2.1.32"
+        },
+        "compile": {
+          "lib/netstandard2.0/Sdcb.ScreenCapture.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sdcb.ScreenCapture.dll": {}
+        }
+      },
+      "SharpGen.Runtime/2.0.0-beta.11": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/SharpGen.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.11": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11"
+        },
+        "compile": {
+          "lib/net5.0/SharpGen.Runtime.COM.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.COM.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.Direct3D11/2.1.32": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.1.32"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.DirectX/2.1.32": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.Mathematics": "1.4.18"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.DirectX.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DirectX.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.DXGI/2.1.32": {
+        "type": "package",
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.1.32"
+        },
+        "compile": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "Vortice.Mathematics/1.4.18": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vortice.Mathematics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Mathematics.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.2.1": {
+      "sha512": "I24ofWVEdplxYjUez9/bljv/qb8r8Ccj6cvYXHexNBegLaD3iDy3QrzAAOYVMmfGWIXxlU1ZtECQNfU07+6hXQ==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "sha512": "elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Sdcb.FFmpeg/6.0.26": {
+      "sha512": "cZX8VhY+LEYafTy6tEYngZQxmPtKYowzB1vmYO7uV9Vu2kuETVABN3hsgqAUp8m/UyslhEKBRiT9v6fpDzEphA==",
+      "type": "package",
+      "path": "sdcb.ffmpeg/6.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/Sdcb.FFmpeg.dll",
+        "lib/net48/Sdcb.FFmpeg.xml",
+        "lib/net6.0/Sdcb.FFmpeg.dll",
+        "lib/net6.0/Sdcb.FFmpeg.xml",
+        "sdcb.ffmpeg.6.0.26.nupkg.sha512",
+        "sdcb.ffmpeg.nuspec"
+      ]
+    },
+    "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+      "sha512": "xGN434r67qRQ1lGH8gkstziwlH2ANnpwzDw6rSEKGzHtaOnWEehy2QKYI8cazr1qW68LJOeerXbb2ufDOMXmpw==",
+      "type": "package",
+      "path": "sdcb.ffmpeg.runtime.windows-x64/6.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net/Sdcb.FFmpeg.runtime.windows-x64.props",
+        "build/netcoreapp/Sdcb.FFmpeg.runtime.windows-x64.props",
+        "build/netstandard/Sdcb.FFmpeg.runtime.windows-x64.props",
+        "runtimes/win-x64/native/avcodec-60.dll",
+        "runtimes/win-x64/native/avdevice-60.dll",
+        "runtimes/win-x64/native/avfilter-9.dll",
+        "runtimes/win-x64/native/avformat-60.dll",
+        "runtimes/win-x64/native/avutil-58.dll",
+        "runtimes/win-x64/native/postproc-57.dll",
+        "runtimes/win-x64/native/swresample-4.dll",
+        "runtimes/win-x64/native/swscale-7.dll",
+        "sdcb.ffmpeg.runtime.windows-x64.6.0.26.nupkg.sha512",
+        "sdcb.ffmpeg.runtime.windows-x64.nuspec"
+      ]
+    },
+    "Sdcb.ScreenCapture/1.0.0": {
+      "sha512": "Y7csac/UL1Liv8PgWq9d1Jbm33jRtowJDu7pNiyGTD/bnt+bGV+1LSPUZpicgGSgVk/bqcALfNi+1sBReXFqoQ==",
+      "type": "package",
+      "path": "sdcb.screencapture/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Sdcb.ScreenCapture.dll",
+        "linqpad-samples/demo.linq",
+        "sdcb.screencapture.1.0.0.nupkg.sha512",
+        "sdcb.screencapture.nuspec"
+      ]
+    },
+    "SharpGen.Runtime/2.0.0-beta.11": {
+      "sha512": "spTKX7k60Z/eIcRmFU2AvAOk5i17z7H1N7LkYBYKfY7BfkjzegAoG/mpGWKfjiokWuojmIWronGUMwnBcnF2pw==",
+      "type": "package",
+      "path": "sharpgen.runtime/2.0.0-beta.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Mapping.xml",
+        "build/SharpGen.Runtime.props",
+        "buildMultiTargeting/SharpGen.Runtime.props",
+        "lib/net45/SharpGen.Runtime.dll",
+        "lib/net46/SharpGen.Runtime.dll",
+        "lib/net471/SharpGen.Runtime.dll",
+        "lib/net5.0/SharpGen.Runtime.dll",
+        "lib/netcoreapp2.1/SharpGen.Runtime.dll",
+        "lib/netcoreapp3.0/SharpGen.Runtime.dll",
+        "lib/netstandard1.3/SharpGen.Runtime.dll",
+        "lib/netstandard2.0/SharpGen.Runtime.dll",
+        "lib/netstandard2.1/SharpGen.Runtime.dll",
+        "sharpgen.runtime.2.0.0-beta.11.nupkg.sha512",
+        "sharpgen.runtime.nuspec"
+      ]
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.11": {
+      "sha512": "/GgjdiSDdmEhgfjXAFnIrah9xk9FJjOGlFHjBUz7Nt0F3Fi9HFuAhGexm0ScU/goKiMfKrvOOryXIhDCn7veMg==",
+      "type": "package",
+      "path": "sharpgen.runtime.com/2.0.0-beta.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/SharpGen.Runtime.COM.BindMapping.xml",
+        "build/SharpGen.Runtime.COM.props",
+        "buildMultiTargeting/SharpGen.Runtime.COM.props",
+        "lib/net45/SharpGen.Runtime.COM.dll",
+        "lib/net5.0/SharpGen.Runtime.COM.dll",
+        "lib/netstandard1.3/SharpGen.Runtime.COM.dll",
+        "lib/netstandard2.0/SharpGen.Runtime.COM.dll",
+        "sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512",
+        "sharpgen.runtime.com.nuspec"
+      ]
+    },
+    "Vortice.Direct3D11/2.1.32": {
+      "sha512": "tsV7WvjGxEs1uyxYKPDZICYHlwu6OQfnWEYJ+RG8Trdw88ImBk8dpALiXa6nrq9sQwnipPd20UQ9z9/HgG3TWQ==",
+      "type": "package",
+      "path": "vortice.direct3d11/2.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.Direct3D11.BindMapping.xml",
+        "build/Vortice.Direct3D11.props",
+        "buildMultiTargeting/Vortice.Direct3D11.props",
+        "lib/net6.0/Vortice.Direct3D11.dll",
+        "lib/net6.0/Vortice.Direct3D11.pdb",
+        "lib/net6.0/Vortice.Direct3D11.xml",
+        "lib/netstandard2.0/Vortice.Direct3D11.dll",
+        "lib/netstandard2.0/Vortice.Direct3D11.pdb",
+        "lib/netstandard2.0/Vortice.Direct3D11.xml",
+        "vortice.direct3d11.2.1.32.nupkg.sha512",
+        "vortice.direct3d11.nuspec"
+      ]
+    },
+    "Vortice.DirectX/2.1.32": {
+      "sha512": "FhPAAhkUKwsj1oFIiGEyIGErQ1r9LXNeUpN9MZ2YkAjLtPyosPI8ID1k7pWH3yw/7r3E6JctI0D+/dVCM0OudA==",
+      "type": "package",
+      "path": "vortice.directx/2.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.DirectX.BindMapping.xml",
+        "build/Vortice.DirectX.props",
+        "buildMultiTargeting/Vortice.DirectX.props",
+        "lib/net6.0/Vortice.DirectX.dll",
+        "lib/net6.0/Vortice.DirectX.pdb",
+        "lib/net6.0/Vortice.DirectX.xml",
+        "lib/netstandard2.0/Vortice.DirectX.dll",
+        "lib/netstandard2.0/Vortice.DirectX.pdb",
+        "lib/netstandard2.0/Vortice.DirectX.xml",
+        "vortice.directx.2.1.32.nupkg.sha512",
+        "vortice.directx.nuspec"
+      ]
+    },
+    "Vortice.DXGI/2.1.32": {
+      "sha512": "o9vYoeYMNquJTUGJ4ukcyHvogC2fm35yj3dGba+6ZEVkQ/kYPoery5IkrZDkYEY3SabDC+FaWOD8OtKhTULZ6g==",
+      "type": "package",
+      "path": "vortice.dxgi/2.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Vortice.DXGI.BindMapping.xml",
+        "build/Vortice.DXGI.props",
+        "buildMultiTargeting/Vortice.DXGI.props",
+        "lib/net6.0/Vortice.DXGI.dll",
+        "lib/net6.0/Vortice.DXGI.pdb",
+        "lib/net6.0/Vortice.DXGI.xml",
+        "lib/netstandard2.0/Vortice.DXGI.dll",
+        "lib/netstandard2.0/Vortice.DXGI.pdb",
+        "lib/netstandard2.0/Vortice.DXGI.xml",
+        "vortice.dxgi.2.1.32.nupkg.sha512",
+        "vortice.dxgi.nuspec"
+      ]
+    },
+    "Vortice.Mathematics/1.4.18": {
+      "sha512": "8DIAc5JtHiqmx/nFAMr9kdCHZy7yv4afcaTrGk5u8CVYGtKnxjoW8H5IPs2uomg3K4ndVhaJsDdJ0Gzlxh4byA==",
+      "type": "package",
+      "path": "vortice.mathematics/1.4.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Vortice.Mathematics.dll",
+        "lib/net6.0/Vortice.Mathematics.xml",
+        "lib/netstandard2.0/Vortice.Mathematics.dll",
+        "lib/netstandard2.0/Vortice.Mathematics.xml",
+        "vortice.mathematics.1.4.18.nupkg.sha512",
+        "vortice.mathematics.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CommunityToolkit.Mvvm >= 8.2.1",
+      "Microsoft.Extensions.DependencyInjection >= 7.0.0",
+      "Sdcb.FFmpeg >= 6.0.26",
+      "Sdcb.FFmpeg.runtime.windows-x64 >= 6.0.26",
+      "Sdcb.ScreenCapture >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wuyifan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wuyifan\\source\\repos\\broadcast\\broadcast\\broadcast.csproj",
+      "projectName": "broadcast",
+      "projectPath": "C:\\Users\\wuyifan\\source\\repos\\broadcast\\broadcast\\broadcast.csproj",
+      "packagesPath": "C:\\Users\\wuyifan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wuyifan\\source\\repos\\broadcast\\broadcast\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\wuyifan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.1, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Sdcb.FFmpeg": {
+            "target": "Package",
+            "version": "[6.0.26, )"
+          },
+          "Sdcb.FFmpeg.runtime.windows-x64": {
+            "target": "Package",
+            "version": "[6.0.26, )"
+          },
+          "Sdcb.ScreenCapture": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

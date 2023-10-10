@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "nFNF5p68TlKT/1gZYu0290+4beClLLOqAdxeuNhrDeIJOtx4izQ8tZJQC5s87u7A6HbHJX+evIfjcwSCjQiKkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wuyifan\\source\\repos\\broadcast\\broadcast\\broadcast.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wuyifan\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\sdcb.ffmpeg\\6.0.26\\sdcb.ffmpeg.6.0.26.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\sdcb.ffmpeg.runtime.windows-x64\\6.0.26\\sdcb.ffmpeg.runtime.windows-x64.6.0.26.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\sdcb.screencapture\\1.0.0\\sdcb.screencapture.1.0.0.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\sharpgen.runtime\\2.0.0-beta.11\\sharpgen.runtime.2.0.0-beta.11.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\sharpgen.runtime.com\\2.0.0-beta.11\\sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\vortice.direct3d11\\2.1.32\\vortice.direct3d11.2.1.32.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\vortice.directx\\2.1.32\\vortice.directx.2.1.32.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\vortice.dxgi\\2.1.32\\vortice.dxgi.2.1.32.nupkg.sha512",
+    "C:\\Users\\wuyifan\\.nuget\\packages\\vortice.mathematics\\1.4.18\\vortice.mathematics.1.4.18.nupkg.sha512"
+  ],
+  "logs": []
+}

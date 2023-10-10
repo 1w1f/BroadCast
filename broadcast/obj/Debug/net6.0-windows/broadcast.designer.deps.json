@@ -1,0 +1,251 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CommunityToolkit.Mvvm/8.2.1": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.1.1"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Sdcb.FFmpeg/6.0.26": {
+        "runtime": {
+          "lib/net6.0/Sdcb.FFmpeg.dll": {
+            "assemblyVersion": "6.0.26.0",
+            "fileVersion": "6.0.26.0"
+          }
+        }
+      },
+      "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/avcodec-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.3.100.0"
+          },
+          "runtimes/win-x64/native/avdevice-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.1.100.0"
+          },
+          "runtimes/win-x64/native/avfilter-9.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "9.3.100.0"
+          },
+          "runtimes/win-x64/native/avformat-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.3.100.0"
+          },
+          "runtimes/win-x64/native/avutil-58.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "58.2.100.0"
+          },
+          "runtimes/win-x64/native/postproc-57.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "57.1.100.0"
+          },
+          "runtimes/win-x64/native/swresample-4.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.10.100.0"
+          },
+          "runtimes/win-x64/native/swscale-7.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.100.0"
+          }
+        }
+      },
+      "Sdcb.ScreenCapture/1.0.0": {
+        "dependencies": {
+          "Vortice.Direct3D11": "2.1.32"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sdcb.ScreenCapture.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.0.0-beta.11": {
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.11": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11"
+        },
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/2.1.32": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.1.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.1.32.0",
+            "fileVersion": "2.1.32.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.1.32": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.Mathematics": "1.4.18"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "2.1.32.0",
+            "fileVersion": "2.1.32.0"
+          }
+        }
+      },
+      "Vortice.DXGI/2.1.32": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.1.32"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "assemblyVersion": "2.1.32.0",
+            "fileVersion": "2.1.32.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.4.18": {
+        "runtime": {
+          "lib/net6.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.18.29214"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I24ofWVEdplxYjUez9/bljv/qb8r8Ccj6cvYXHexNBegLaD3iDy3QrzAAOYVMmfGWIXxlU1ZtECQNfU07+6hXQ==",
+      "path": "communitytoolkit.mvvm/8.2.1",
+      "hashPath": "communitytoolkit.mvvm.8.2.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Sdcb.FFmpeg/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cZX8VhY+LEYafTy6tEYngZQxmPtKYowzB1vmYO7uV9Vu2kuETVABN3hsgqAUp8m/UyslhEKBRiT9v6fpDzEphA==",
+      "path": "sdcb.ffmpeg/6.0.26",
+      "hashPath": "sdcb.ffmpeg.6.0.26.nupkg.sha512"
+    },
+    "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xGN434r67qRQ1lGH8gkstziwlH2ANnpwzDw6rSEKGzHtaOnWEehy2QKYI8cazr1qW68LJOeerXbb2ufDOMXmpw==",
+      "path": "sdcb.ffmpeg.runtime.windows-x64/6.0.26",
+      "hashPath": "sdcb.ffmpeg.runtime.windows-x64.6.0.26.nupkg.sha512"
+    },
+    "Sdcb.ScreenCapture/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y7csac/UL1Liv8PgWq9d1Jbm33jRtowJDu7pNiyGTD/bnt+bGV+1LSPUZpicgGSgVk/bqcALfNi+1sBReXFqoQ==",
+      "path": "sdcb.screencapture/1.0.0",
+      "hashPath": "sdcb.screencapture.1.0.0.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-spTKX7k60Z/eIcRmFU2AvAOk5i17z7H1N7LkYBYKfY7BfkjzegAoG/mpGWKfjiokWuojmIWronGUMwnBcnF2pw==",
+      "path": "sharpgen.runtime/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.2.0.0-beta.11.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/GgjdiSDdmEhgfjXAFnIrah9xk9FJjOGlFHjBUz7Nt0F3Fi9HFuAhGexm0ScU/goKiMfKrvOOryXIhDCn7veMg==",
+      "path": "sharpgen.runtime.com/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512"
+    },
+    "Vortice.Direct3D11/2.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tsV7WvjGxEs1uyxYKPDZICYHlwu6OQfnWEYJ+RG8Trdw88ImBk8dpALiXa6nrq9sQwnipPd20UQ9z9/HgG3TWQ==",
+      "path": "vortice.direct3d11/2.1.32",
+      "hashPath": "vortice.direct3d11.2.1.32.nupkg.sha512"
+    },
+    "Vortice.DirectX/2.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FhPAAhkUKwsj1oFIiGEyIGErQ1r9LXNeUpN9MZ2YkAjLtPyosPI8ID1k7pWH3yw/7r3E6JctI0D+/dVCM0OudA==",
+      "path": "vortice.directx/2.1.32",
+      "hashPath": "vortice.directx.2.1.32.nupkg.sha512"
+    },
+    "Vortice.DXGI/2.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o9vYoeYMNquJTUGJ4ukcyHvogC2fm35yj3dGba+6ZEVkQ/kYPoery5IkrZDkYEY3SabDC+FaWOD8OtKhTULZ6g==",
+      "path": "vortice.dxgi/2.1.32",
+      "hashPath": "vortice.dxgi.2.1.32.nupkg.sha512"
+    },
+    "Vortice.Mathematics/1.4.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8DIAc5JtHiqmx/nFAMr9kdCHZy7yv4afcaTrGk5u8CVYGtKnxjoW8H5IPs2uomg3K4ndVhaJsDdJ0Gzlxh4byA==",
+      "path": "vortice.mathematics/1.4.18",
+      "hashPath": "vortice.mathematics.1.4.18.nupkg.sha512"
+    }
+  }
+}

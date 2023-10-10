@@ -1,0 +1,519 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CommunityToolkit.Mvvm/8.2.1": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.1.1"
+          }
+        }
+      },
+      "FlysEngine/2.0.6": {
+        "dependencies": {
+          "Vortice.Direct2D1": "2.1.23-beta",
+          "Vortice.Direct3D11": "2.1.23-beta",
+          "Vortice.UIAnimation": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0/FlysEngine.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "FlysEngine.Desktop/2.0.6": {
+        "dependencies": {
+          "FlysEngine": "2.0.6",
+          "Vanara.PInvoke.User32": "3.4.4",
+          "Vortice.DirectInput": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FlysEngine.Desktop.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Sdcb.FFmpeg/6.0.26": {
+        "runtime": {
+          "lib/net6.0/Sdcb.FFmpeg.dll": {
+            "assemblyVersion": "6.0.26.0",
+            "fileVersion": "6.0.26.0"
+          }
+        }
+      },
+      "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/avcodec-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.3.100.0"
+          },
+          "runtimes/win-x64/native/avdevice-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.1.100.0"
+          },
+          "runtimes/win-x64/native/avfilter-9.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "9.3.100.0"
+          },
+          "runtimes/win-x64/native/avformat-60.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "60.3.100.0"
+          },
+          "runtimes/win-x64/native/avutil-58.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "58.2.100.0"
+          },
+          "runtimes/win-x64/native/postproc-57.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "57.1.100.0"
+          },
+          "runtimes/win-x64/native/swresample-4.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.10.100.0"
+          },
+          "runtimes/win-x64/native/swscale-7.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.100.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.0.0-beta.11": {
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.11": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11"
+        },
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Vanara.Core/3.4.4": {
+        "runtime": {
+          "lib/net6.0/Vanara.Core.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/fr/Vanara.Core.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Vanara.PInvoke.Gdi32/3.4.4": {
+        "dependencies": {
+          "Vanara.Core": "3.4.4",
+          "Vanara.PInvoke.Shared": "3.4.4"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Gdi32.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Kernel32/3.4.4": {
+        "dependencies": {
+          "Vanara.Core": "3.4.4",
+          "Vanara.PInvoke.Shared": "3.4.4"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Kernel32.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Shared/3.4.4": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "Vanara.Core": "3.4.4"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.Shared.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.User32/3.4.4": {
+        "dependencies": {
+          "Vanara.Core": "3.4.4",
+          "Vanara.PInvoke.Gdi32": "3.4.4",
+          "Vanara.PInvoke.Kernel32": "3.4.4",
+          "Vanara.PInvoke.Shared": "3.4.4"
+        },
+        "runtime": {
+          "lib/net6.0/Vanara.PInvoke.User32.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
+      "Vortice.Direct2D1/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct2D1.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      },
+      "Vortice.DirectInput/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DirectInput.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.Mathematics": "1.4.16"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      },
+      "Vortice.DXGI/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.1.23-beta"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.4.16": {
+        "runtime": {
+          "lib/net6.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.16.5537"
+          }
+        }
+      },
+      "Vortice.UIAnimation/2.1.23-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.UIAnimation.dll": {
+            "assemblyVersion": "2.1.23.0",
+            "fileVersion": "2.1.23.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I24ofWVEdplxYjUez9/bljv/qb8r8Ccj6cvYXHexNBegLaD3iDy3QrzAAOYVMmfGWIXxlU1ZtECQNfU07+6hXQ==",
+      "path": "communitytoolkit.mvvm/8.2.1",
+      "hashPath": "communitytoolkit.mvvm.8.2.1.nupkg.sha512"
+    },
+    "FlysEngine/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qTpR6ZqrnWBcSDf+3RNoWEnJMN0Jdy/JBRMwpC1kx8PGodX+iwdom80AAHyMXmLE9K2+G2ixd2pIoZ5f14JvQA==",
+      "path": "flysengine/2.0.6",
+      "hashPath": "flysengine.2.0.6.nupkg.sha512"
+    },
+    "FlysEngine.Desktop/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvVAQoMcPzLRCKZxSUJG5wTpGEWghA/nqEtGt2aIyls21XqRMHhQALcfJ9RbtXieNrX4RZaKwWYERQflJxY75A==",
+      "path": "flysengine.desktop/2.0.6",
+      "hashPath": "flysengine.desktop.2.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "Sdcb.FFmpeg/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cZX8VhY+LEYafTy6tEYngZQxmPtKYowzB1vmYO7uV9Vu2kuETVABN3hsgqAUp8m/UyslhEKBRiT9v6fpDzEphA==",
+      "path": "sdcb.ffmpeg/6.0.26",
+      "hashPath": "sdcb.ffmpeg.6.0.26.nupkg.sha512"
+    },
+    "Sdcb.FFmpeg.runtime.windows-x64/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xGN434r67qRQ1lGH8gkstziwlH2ANnpwzDw6rSEKGzHtaOnWEehy2QKYI8cazr1qW68LJOeerXbb2ufDOMXmpw==",
+      "path": "sdcb.ffmpeg.runtime.windows-x64/6.0.26",
+      "hashPath": "sdcb.ffmpeg.runtime.windows-x64.6.0.26.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-spTKX7k60Z/eIcRmFU2AvAOk5i17z7H1N7LkYBYKfY7BfkjzegAoG/mpGWKfjiokWuojmIWronGUMwnBcnF2pw==",
+      "path": "sharpgen.runtime/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.2.0.0-beta.11.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/GgjdiSDdmEhgfjXAFnIrah9xk9FJjOGlFHjBUz7Nt0F3Fi9HFuAhGexm0ScU/goKiMfKrvOOryXIhDCn7veMg==",
+      "path": "sharpgen.runtime.com/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "Vanara.Core/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YT/iJ5jhgmrevphYF01b7UKPyigQanEPIamXFhHjlKEx4bc5BX9uyK7TgYtisGu0mfx8fjmzwcT35mx5VzdcNw==",
+      "path": "vanara.core/3.4.4",
+      "hashPath": "vanara.core.3.4.4.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Gdi32/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvCc0Z8jvM2VC8f2MrLVXqBobrgsR7xvLvj9fDzDMIlc5Zip8LxWg3lJuZInc63SDly6hfh6nhGIRoKFfIDf/w==",
+      "path": "vanara.pinvoke.gdi32/3.4.4",
+      "hashPath": "vanara.pinvoke.gdi32.3.4.4.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Kernel32/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s0e+cfXp0FdvU246TeBtIseBxC/yVNVLHundGOc0JMK5JRbCSVqUSzbhJLKyktg3kWb//79g0jAXhsU/oDarAA==",
+      "path": "vanara.pinvoke.kernel32/3.4.4",
+      "hashPath": "vanara.pinvoke.kernel32.3.4.4.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Shared/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B0C0Y4UJcwoJXYcXPUFn5myxtXjifeLlL2famvw/XKGbsXmPQY1/8ptthpybg8klQQnMoM+zaTjA+FNcPdX2vQ==",
+      "path": "vanara.pinvoke.shared/3.4.4",
+      "hashPath": "vanara.pinvoke.shared.3.4.4.nupkg.sha512"
+    },
+    "Vanara.PInvoke.User32/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+ZkDRXWcq25O/Dul3DiM+LpD3wgyzmwZyUzOqsFtfQSXM+jhL8+5M7Qcd2SckUknOziqLBExRXg/2QBzRdOvQ==",
+      "path": "vanara.pinvoke.user32/3.4.4",
+      "hashPath": "vanara.pinvoke.user32.3.4.4.nupkg.sha512"
+    },
+    "Vortice.Direct2D1/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yKLdeJh6/oOpU9QH7EU7qpDjFK8X4VE5ok+GNbb244+ZrK9jmosfWa4J9VcimBOdtPYYsIbRMjx7Ngq4PWY1Q==",
+      "path": "vortice.direct2d1/2.1.23-beta",
+      "hashPath": "vortice.direct2d1.2.1.23-beta.nupkg.sha512"
+    },
+    "Vortice.Direct3D11/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mGsDsfEiPiKBd0d4w0gLEcwSe3D/EGIsHz4uRsfxvIdz4NuCbOMSX6wwEO2atzORF9vuLKQ3quBqxwsj4Bz4NA==",
+      "path": "vortice.direct3d11/2.1.23-beta",
+      "hashPath": "vortice.direct3d11.2.1.23-beta.nupkg.sha512"
+    },
+    "Vortice.DirectInput/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iVpWHPptv4KoH5mO0/Zw/4ScXAoMRVA4BrX52m9ygVqbqV2JpyloJ1Fg4e+WRHLUXlPdsXsfYjiDB7krXehbFQ==",
+      "path": "vortice.directinput/2.1.23-beta",
+      "hashPath": "vortice.directinput.2.1.23-beta.nupkg.sha512"
+    },
+    "Vortice.DirectX/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LHBlTOMIFOUwMoA8JEHFjQ8WLOU9haFkGamDy6i4nmyBY48f1ZOtnJpvzPl2TRrEbsjNQeh5ntID+WM5ZS53Rg==",
+      "path": "vortice.directx/2.1.23-beta",
+      "hashPath": "vortice.directx.2.1.23-beta.nupkg.sha512"
+    },
+    "Vortice.DXGI/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DcqB0aoqpzM5DgZj6mklZkvpV9j9FNoztLbPkU1EQJdqK8ixLhHV8Kklzy0xWKz9/03eZX2Skr9Z8atJ/05fEw==",
+      "path": "vortice.dxgi/2.1.23-beta",
+      "hashPath": "vortice.dxgi.2.1.23-beta.nupkg.sha512"
+    },
+    "Vortice.Mathematics/1.4.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UOeUVtPQfk1qLdIRM09/9Js65/dYqaIIvxCyqsOx4c4l2/W7pqeeS6gDPwDmWRITR2LTd7S8FJ7RGv6E0PprCQ==",
+      "path": "vortice.mathematics/1.4.16",
+      "hashPath": "vortice.mathematics.1.4.16.nupkg.sha512"
+    },
+    "Vortice.UIAnimation/2.1.23-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1S2Tnu98Lwb5Qyz1t7JrnrhigAIwUXdmqFyvgQb2k9Nu/iO8xDvI7VZ1ArjfLofkQsywsjVjnIEvwbB5L0VCIQ==",
+      "path": "vortice.uianimation/2.1.23-beta",
+      "hashPath": "vortice.uianimation.2.1.23-beta.nupkg.sha512"
+    }
+  }
+}

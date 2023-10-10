@@ -1,0 +1,15 @@
+﻿<Window x:Class="broadcastClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:broadcastClient"
+        mc:Ignorable="d"
+        xmlns:vm="clr-namespace:broadcastClient.ViewModel"
+        d:DataContext="{d:DesignInstance vm:RenderViewModel}"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Width="80" Command="{Binding StartRenderCommand}">开始</Button>
+        <Image Source="{Binding ScreenBitmap}" Width="192" Height="108"></Image>
+    </StackPanel>
+</Window>
